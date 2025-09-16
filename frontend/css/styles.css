@@ -63,6 +63,10 @@
   align-items: center;
 }
 
+.h-85 {
+  height: 85% !important;
+}
+
 /* ----- Modal Inicio de Sesión y Registrate ----- */
 
 .form-control-mex{
