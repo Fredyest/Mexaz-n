@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Varta:wght@300..700&family=Wellfleet&display=swap" rel="stylesheet">
-    
 
 
 <!-- TU CSS (sirve cualquiera de las 2 formas; usa UNA) -->
@@ -104,9 +103,7 @@
                             <h2 id="registerTitle" class="wellfleet-regular text-uppercase mb-4">Regístrate</h2>
 
                             <section class="wizard-step" data-step="1">
-                                <div class="mb-3">
-                                <input type="text" class="form-control form-control-mex" placeholder="Nombre de tu negocio">
-                                </div>
+                                
                                 <div class="row g-3 mb-3">
                                 <div class="col-md-6">
                                     <input type="email" class="form-control form-control-mex" placeholder="Correo electrónico">
@@ -123,6 +120,14 @@
                                     <input type="password" class="form-control form-control-mex" placeholder="Confirma tu contraseña">
                                 </div>
                                 </div>
+                                <div class="row g-3 mb-3">
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control form-control-mex" placeholder="Ciudad / municipio">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control form-control-mex" placeholder="C.P.">
+                                </div>
+                                </div>
 
                                 <label class="d-block mb-3">¿Eres un puesto?</label>
                                 <div class="btn-group" role="group">
@@ -135,6 +140,9 @@
                             </section>
 
                             <section class="wizard-step d-none" data-step="2a">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control form-control-mex" placeholder="Nombre de tu puesto / local">
+                                </div>
                                 <p class="mb-3">Configura tus horarios:</p>
                                 <div class="vstack gap-2">
                                     <div class="d-flex gap-2 align-items-center">
@@ -185,7 +193,7 @@
                             <section class="wizard-step d-none" data-step="2b">
                                 <p class="mb-3">Cuéntanos un poco más:</p>
                                 <div class="mb-3">
-                                <input type="text" class="form-control form-control-mex" placeholder="Ciudad / Municipio">
+                                <input type="text" class="form-control form-control-mex" placeholder="Nombre de usuario">
                                 </div>
                                 <div class="mb-3">
                                 <input type="text" class="form-control form-control-mex" placeholder="Intereses (tacos, elotes, etc.)">
@@ -359,11 +367,8 @@
         </section>
     </div>
 
-
-
 <!-- Entrada Vite -->
 <script type="module" src="/main.js"></script>   <!-- usa /main.js -->
-
 
 
 </body>
